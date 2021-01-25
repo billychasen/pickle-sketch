@@ -1,0 +1,30 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+    "name": "pickle",
+    "description": "Ask people about your designs",
+    "author": "pickle",
+    "homepage": "https://pickle.run",
+    "version": "1.0",
+    "identifier": "run.pickle.sketch.plugin",
+    "icon": "icon.png",
+    "commands": [
+        {
+            "name": "New Question",
+            "identifier": "pickle.run.command",
+            "script": "./command.js",
+            "shortcut": "ctrl shift q"
+        },
+        {
+            "name": "Help",
+            "identifier": "pickle.run.help",
+            "script": "./help.js"
+        }
+    ],
+    "menu": {
+        "title": "pickle",
+        "items": [
+            "pickle.run.command",
+            "pickle.run.help"
+        ]
+    }
+}
