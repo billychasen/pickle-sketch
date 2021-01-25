@@ -43,7 +43,7 @@ async function apiCall(path, data, callback) {
         }
     });
 
-    fetch("http://localhost:8000/api" + path, {
+    fetch("https://pickle.run/api" + path, {
         method: 'POST',
         body: formData
     })
