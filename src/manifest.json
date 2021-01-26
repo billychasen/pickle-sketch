@@ -4,7 +4,7 @@
     "description": "Ask people about your designs",
     "author": "pickle",
     "homepage": "https://pickle.run",
-    "version": "1.0",
+    "version": "1.1.0",
     "identifier": "run.pickle.sketch.plugin",
     "icon": "icon.png",
     "commands": [
