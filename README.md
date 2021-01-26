@@ -8,7 +8,7 @@ How it works:
 
 ## Installation
 
-To install, [download the zip file](https://github.com/billychasen/pickle-sketch/releases/download/v1.0.0/pickle.sketchplugin.zip) and double-click on `pickle.sketchplugin`. Pickle will show up under `Plugins > New Question`.
+To install, [download the zip file](https://github.com/billychasen/pickle-sketch/releases/latest/download/pickle.sketchplugin.zip) and double-click on `pickle.sketchplugin`. Pickle will show up under `Plugins > New Question`.
 
 ## Usage
 
