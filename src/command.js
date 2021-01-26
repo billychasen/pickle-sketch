@@ -11,7 +11,7 @@ async function getUserInput(question, placeholder) {
                 if (err) {
                     resolve(null);
                 } else {
-                    resolve(value);
+                    resolve(value.trim());
                 }
             });
     });
